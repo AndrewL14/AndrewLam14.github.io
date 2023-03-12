@@ -25,12 +25,6 @@ export const Projects = () => {
       linkImg: githubImg
     },
     {
-      title: "Water My Plants",
-      description: "Back-end Development",
-      imgUrl: projImg3,
-      linkImg: githubImg
-    },
-    {
       title: "Kindle Publishing service (Contributed)",
       description: "Back-end Development",
       imgUrl: projImg1,
