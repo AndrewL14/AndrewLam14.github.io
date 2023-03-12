@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+This project uses GitHub Pages to deploy to production [GitHub Pages](https://github.com/AndrewL14/AndrewLam14.github.io.git).\
+
+## Description
+
+a highly efficient and reliable personal contact book service. The service is built using a robust RESTFul API architecture with SpringBoot,\
+providing seamless handling of HTTP requests. For efficient dependency injection and management, the service utilizes the Dagger framework. And,\
+for storing data across multiple runtimes, the service uses DynamoDB, a highly scalable and flexible NoSQL database. 
 
 ## Available Scripts
 
@@ -39,32 +46,22 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Scripts Used in production
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 'npm run build'
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Code Splitting
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Analyzing the Bundle Size
+### 'gh-pages -d build'
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Deploys the built project to GitHub Pages to create a static website.\
+Website is listed under a subdomain of GitHub
 
-### Making a Progressive Web App
+See the section about [deployment](https://docs.github.com/en/pages) for more information
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
