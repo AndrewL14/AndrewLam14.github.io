@@ -478,13 +478,65 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 0 350px 0;
+}
+.contact {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
 }
 .contact img {
-  width: 92%;
+  right: 10%;
+  width: 125%;
+}
+.form {
+  position: absolute;
+  top: 100%;
+  right: -40%;
+  float: right;
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none;
+  gap: 5px;
+}
+.form input {
+  border: none;
+  height: 20px;
+  border-radius: 1px;
+}
+.form textarea {
+  height: 200px;
+  border: none;
+  border-radius: 1px;
+}
+.form button {
+  background-color: rgb(113, 28, 178);
+  color: White;
+  border: none;
+  font-weight: lighter;
+  border-radius: 10px;
+  padding: 5px;
+}
+.contact-bottom {
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  margin: 0 auto;
+}
+.contact-bottom p {
+  top: 10%;
+  right: 5%;
+  width: 150%;
+  right: 150%;
+}
+.contact-bottom p img {
+  width: 20px;
+  height: 20px;
 }
 .contact h2 {
 	font-size: 45px;
@@ -583,3 +635,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+

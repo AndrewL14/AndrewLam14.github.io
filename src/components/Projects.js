@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
-import githubImg from "../assets/img/github-png.png";
+import githubImg from "../assets/icons/git.svg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -15,13 +15,14 @@ export const Projects = () => {
       title: "Personal Portfolio",
       description: "Design & Front-end Development",
       imgUrl: projImg1,
-      link: "https://github.com/AndrewL14/Personal-Portfolio",
+      link: "https://github.com/AndrewL14/AndrewLam14.github.io",
       linkImg: githubImg
     },
     {
       title: "Personal Contacts",
       description: "Back-end Development",
       imgUrl: projImg2,
+      link: "https://github.com/AndrewL14/contact-book",
       linkImg: githubImg
     },
     {
