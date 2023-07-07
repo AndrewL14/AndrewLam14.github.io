@@ -481,17 +481,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 350px 0;
+  padding: 350px 0 350px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
 .contact {
   position: relative;
   max-width: 100%;
   margin: 0 auto;
 }
-.contact img {
-  right: 10%;
-  width: 125%;
-}
+
 .form {
   position: absolute;
   top: 100%;
@@ -504,46 +506,56 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: none;
   gap: 5px;
 }
+
 .form input {
   border: none;
   height: 20px;
   border-radius: 1px;
 }
+
 .form textarea {
   height: 200px;
   border: none;
   border-radius: 1px;
 }
+
 .form button {
   background-color: rgb(113, 28, 178);
-  color: White;
+  color: white;
   border: none;
   font-weight: lighter;
   border-radius: 10px;
   padding: 5px;
 }
+
 .contact-bottom {
   position: absolute;
-  top: 15%;
-  right: 10%;
-  margin: 0 auto;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
 .contact-bottom p {
-  top: 10%;
-  right: 5%;
-  width: 150%;
-  right: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
 }
+
 .contact-bottom p img {
   width: 20px;
   height: 20px;
+  margin-right: 5px;
 }
+
 .contact h2 {
-	font-size: 45px;
-	font-weight: 700;
+  font-size: 45px;
+  font-weight: 700;
   margin-bottom: 30px;
 }
-.contact form input, .contact form textarea {
+
+.contact form input,
+.contact form textarea {
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -555,6 +567,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 25px;
   letter-spacing: 0.8px;
   transition: 0.3s ease-in-out;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.1);
+}
+.contact textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+.contact textarea::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.contact textarea::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+
+.contact textarea::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /************ Footer Css ************/
