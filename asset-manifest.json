@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AndrewLam14.github.io/static/css/main.1bfe52c8.css",
-    "main.js": "/AndrewLam14.github.io/static/js/main.85ce4c9e.js",
+    "main.css": "/AndrewLam14.github.io/static/css/main.e874b70d.css",
+    "main.js": "/AndrewLam14.github.io/static/js/main.dba947d3.js",
     "static/js/787.fb771931.chunk.js": "/AndrewLam14.github.io/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/AndrewLam14.github.io/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/AndrewLam14.github.io/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -29,12 +29,12 @@
     "static/media/paper-plane-solid.svg": "/AndrewLam14.github.io/static/media/paper-plane-solid.45b9c7f6863fed8e860aee2fdff4bab7.svg",
     "static/media/mobile-solid.svg": "/AndrewLam14.github.io/static/media/mobile-solid.99015d3964592792f7281984b9df1613.svg",
     "static/media/nav-icon2.svg": "/AndrewLam14.github.io/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.1bfe52c8.css.map": "/AndrewLam14.github.io/static/css/main.1bfe52c8.css.map",
-    "main.85ce4c9e.js.map": "/AndrewLam14.github.io/static/js/main.85ce4c9e.js.map",
+    "main.e874b70d.css.map": "/AndrewLam14.github.io/static/css/main.e874b70d.css.map",
+    "main.dba947d3.js.map": "/AndrewLam14.github.io/static/js/main.dba947d3.js.map",
     "787.fb771931.chunk.js.map": "/AndrewLam14.github.io/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bfe52c8.css",
-    "static/js/main.85ce4c9e.js"
+    "static/css/main.e874b70d.css",
+    "static/js/main.dba947d3.js"
   ]
 }
