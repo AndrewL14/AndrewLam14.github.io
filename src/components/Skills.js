@@ -9,7 +9,6 @@ import colorSharp from "../assets/img/color-sharp.png";
 export const Skills = () => {
     const responsive = {
       superLargeDesktop: {
-        // the naming can be any, depends on you.
         breakpoint: { max: 4000, min: 3000 },
         items: 5
       },
@@ -34,7 +33,7 @@ export const Skills = () => {
                   <div className="col-12">
                       <div className="skill-bx wow zoomIn">
                           <h2>Skills</h2>
-                          <p>Here are all my current skills consurning Web Development with corresponding perecentage of understanding based on personal opinion. No skill has reached a 100 percent, since There is always room to improve.</p>
+                          <p>All my current skills consurning Web Development.</p>
                           <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                               <div className="item">
                                   <img src={meter2} alt="Image" />

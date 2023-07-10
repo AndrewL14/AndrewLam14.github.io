@@ -7,7 +7,7 @@ This project uses GitHub Pages to deploy to production [GitHub Pages](https://gi
 
 a highly efficient and reliable personal contact book service. The service is built using a robust RESTFul API architecture with SpringBoot,\
 providing seamless handling of HTTP requests. For efficient dependency injection and management, the service utilizes the Dagger framework. And,\
-for storing data across multiple runtimes, the service uses DynamoDB, a highly scalable and flexible NoSQL database. 
+for storing data across multiple runtimes, the service uses DynamoDB, a highly scalable and flexible NoSQL database.
 
 ## Available Scripts
 
@@ -65,3 +65,16 @@ Website is listed under a subdomain of GitHub
 
 See the section about [deployment](https://docs.github.com/en/pages) for more information
 
+## Steps for updating
+
+### 1
+
+run "npm run predoply"
+
+### 2
+
+run "npm run deploy"
+
+### 3
+
+Commit then push changes.

@@ -57,7 +57,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Here are all the projects I've either created or contributed to with their corresponding github link. Note: the pictures are the same because I'm a developer not an artist</p>
+                <p>Here are all the projects I've either created or contributed to with their corresponding github link.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
