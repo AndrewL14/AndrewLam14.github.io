@@ -19,6 +19,13 @@ export const Projects = () => {
       linkImg: githubImg
     },
     {
+      title: "Movie review API",
+      description: "Designed a fully functioning movie review Backend",
+      imgUrl: projImg2,
+      link: "https://github.com/AndrewL14/Movie-review-api",
+      linkImg: githubImg
+    },
+    {
       title: "Personal Contacts",
       description: "Back-end Development",
       imgUrl: projImg2,
