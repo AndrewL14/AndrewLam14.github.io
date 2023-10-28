@@ -69,7 +69,7 @@ See the section about [deployment](https://docs.github.com/en/pages) for more in
 
 ### 1
 
-run "npm run predoply"
+run "npm run predeploy"
 
 ### 2
 
