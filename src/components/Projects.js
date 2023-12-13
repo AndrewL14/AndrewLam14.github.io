@@ -1,8 +1,12 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import personalPortfolioImg from "../assets/img/personal-portfolio.jpg";
+import personalContactImg from "../assets/img/personal-contact.jpg";
+import movieImg from "../assets/img/Movie-review.jpg";
+import graderImg from "../assets/img/grade-tracker.png";
+import kindleImg from "../assets/img/kindle-publishing.jpg";
+import libraryImg from "../assets/img/Library.jpg";
+import musicImg from "../assets/img/music.jpg";
 import githubImg from "../assets/icons/git.svg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -12,44 +16,51 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Personal Portfolio",
-      description: "Design & Front-end Development",
-      imgUrl: projImg1,
-      link: "https://github.com/AndrewL14/AndrewLam14.github.io",
-      linkImg: githubImg
-    },
-    {
-      title: "Movie review API",
-      description: "Built a fully functioning movie review Backend",
-      imgUrl: projImg2,
-      link: "https://github.com/AndrewL14/Movie-review-api",
-      linkImg: githubImg
-    },
-    {
-      title: "Personal Contacts",
-      description: "Back-end Development",
-      imgUrl: projImg2,
-      link: "https://github.com/AndrewL14/contact-book",
+      title: "Grader",
+      description: "Design & Back-end development",
+      imgUrl: graderImg,
+      link: "https://github.com/AndrewL14/Student-tracker-API",
       linkImg: githubImg
     },
     {
       title: "Kindle Publishing service (Contributed)",
       description: "Back-end Development",
-      imgUrl: projImg1,
+      imgUrl: kindleImg,
       link: "https://github.com/BloomTechBackend/bd-kindle-publishing-service-AndrewL14/tree/trial-1",
+      linkImg: githubImg
+    },
+    {
+      title: "Movie review API",
+      description: "Built a fully functioning movie review Backend",
+      imgUrl: movieImg,
+      link: "https://github.com/AndrewL14/Movie-review-api",
+      linkImg: githubImg
+    },
+    {
+      title: "Personal Portfolio",
+      description: "Design & Front-end Development",
+      imgUrl: personalPortfolioImg,
+      link: "https://github.com/AndrewL14/AndrewLam14.github.io",
+      linkImg: githubImg
+    },
+    {
+      title: "Personal Contacts",
+      description: "Back-end Development",
+      imgUrl: personalContactImg,
+      link: "https://github.com/AndrewL14/contact-book",
       linkImg: githubImg
     },
     {
       title: "Library Service (Contributed)",
       description: "Back-end Development",
-      imgUrl: projImg2,
+      imgUrl: libraryImg,
       link: "https://github.com/BloomTechBackend/bd-sprint-12-challenge-libraryservice-TheProgrammer18/tree/Sprint_12",
       linkImg: githubImg
     },
     {
       title: "Music Playlist Service (Contributed)",
       description: "Back-end Development",
-      imgUrl: projImg3,
+      imgUrl: musicImg,
       link: "https://github.com/BloomTechBackend/bd-working-with-databases-music-playlist-service-TheProgrammer18/tree/trial-1",
       linkImg: githubImg
     },
@@ -64,19 +75,9 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Here are all the projects I've either created or contributed to with their corresponding github link.</p>
+                <p>Here are all the projects I've either completed or contributed to with their corresponding github link.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item>
-                  </Nav>
+                  
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
