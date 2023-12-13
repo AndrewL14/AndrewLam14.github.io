@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/AndrewLam14.github.io/static/css/main.e874b70d.css",
-    "main.js": "/AndrewLam14.github.io/static/js/main.707285e2.js",
+    "main.js": "/AndrewLam14.github.io/static/js/main.2b3c59cd.js",
     "static/js/787.fb771931.chunk.js": "/AndrewLam14.github.io/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/AndrewLam14.github.io/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/AndrewLam14.github.io/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/banner-bg.png": "/AndrewLam14.github.io/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/AndrewLam14.github.io/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/grade-tracker.png": "/AndrewLam14.github.io/static/media/grade-tracker.54a84a464c82628ff538.png",
     "static/media/CentraNo2-Bold.ttf": "/AndrewLam14.github.io/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/AndrewLam14.github.io/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/AndrewLam14.github.io/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/project-img1.png": "/AndrewLam14.github.io/static/media/project-img1.d593db3f12901bc685c2.png",
     "static/media/footer-bg.png": "/AndrewLam14.github.io/static/media/footer-bg.7bd67c0f73571d0acc02.png",
-    "static/media/project-img2.png": "/AndrewLam14.github.io/static/media/project-img2.2e52097c417f9f1134b0.png",
-    "static/media/project-img3.png": "/AndrewLam14.github.io/static/media/project-img3.675b30d2f975a1bc1d09.png",
     "static/media/contact-img.svg": "/AndrewLam14.github.io/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/Movie-review.jpg": "/AndrewLam14.github.io/static/media/Movie-review.486e6a6b009e697d9028.jpg",
     "static/media/revicons.eot": "/AndrewLam14.github.io/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/AndrewLam14.github.io/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/kindle-publishing.jpg": "/AndrewLam14.github.io/static/media/kindle-publishing.3a374826d926dd0b498f.jpg",
+    "static/media/Library.jpg": "/AndrewLam14.github.io/static/media/Library.9578001db1a4992cbb31.jpg",
     "static/media/revicons.woff": "/AndrewLam14.github.io/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/git.svg": "/AndrewLam14.github.io/static/media/git.caa775e877c74c8aa9fb47f82b0b4817.svg",
     "static/media/meter2.svg": "/AndrewLam14.github.io/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
@@ -30,11 +31,11 @@
     "static/media/mobile-solid.svg": "/AndrewLam14.github.io/static/media/mobile-solid.99015d3964592792f7281984b9df1613.svg",
     "static/media/nav-icon2.svg": "/AndrewLam14.github.io/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.e874b70d.css.map": "/AndrewLam14.github.io/static/css/main.e874b70d.css.map",
-    "main.707285e2.js.map": "/AndrewLam14.github.io/static/js/main.707285e2.js.map",
+    "main.2b3c59cd.js.map": "/AndrewLam14.github.io/static/js/main.2b3c59cd.js.map",
     "787.fb771931.chunk.js.map": "/AndrewLam14.github.io/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e874b70d.css",
-    "static/js/main.707285e2.js"
+    "static/js/main.2b3c59cd.js"
   ]
 }
