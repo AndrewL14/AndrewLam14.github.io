@@ -41,9 +41,7 @@ export const Contact = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <div className="animate__animated">
                   <div class="contact-bottom">
                     <form className="form" ref={ref} onSubmit={handleSubmit}>
                       <input className="input" placeholder=" Name" name="name"/>
@@ -58,8 +56,7 @@ export const Contact = () => {
                     <p><img className="social-icon-contact" src={paperPlane} alt="email"/> andrew.lam965@gmail.com</p>
                     <p><img className="social-icon-contact" src={phone} alt="phone number"/> (210) 330-5433</p>
                   </div>
-              </div>}
-            </TrackVisibility>
+              </div>
           </Col>
         </Row>
       </Container>

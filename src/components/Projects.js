@@ -71,14 +71,12 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col size={12}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+              <div className="animate__animated">
                 <h2>Projects</h2>
                 <p>Here are all the projects I've either completed or contributed to with their corresponding github link.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                  <Tab.Content id="slideInUp" className="animate__animated">
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
@@ -101,8 +99,7 @@ export const Projects = () => {
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
-              </div>}
-            </TrackVisibility>
+              </div>
           </Col>
         </Row>
       </Container>

@@ -20,15 +20,12 @@ export const Banner = () => {
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+              <div className="animate__animated">
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi, I'm Andrew`} <span className="txt-rotate" dataPeriod="1000" data-rotate='["Back-end Devloper]'>a Backend Developer<span className="wrap">{text}</span></span></h1>
                   <p>I'm a graduate of Bloomtech Institue of Technology, majoring in Backend development and Computer
                     Science.</p>
-              </div>}
-            </TrackVisibility>
+              </div>
           </Col>
         </Row>
       </Container>

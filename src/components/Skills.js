@@ -52,6 +52,10 @@ export const Skills = () => {
                                   <h5>AWS</h5>
                               </div>
                               <div className="item">
+                                  <img src={meter3} alt="Image" />
+                                  <h5>AWS RDS</h5>
+                              </div>
+                              <div className="item">
                                   <img src={meter1} alt="Image" />
                                   <h5>AWS DynamoDB</h5>
                               </div>
@@ -94,6 +98,14 @@ export const Skills = () => {
                               <div className="item">
                                   <img src={meter3} alt="Image" />
                                   <h5>SQL</h5>
+                              </div>
+                              <div className="item">
+                                  <img src={meter3} alt="Image" />
+                                  <h5>MongoDB</h5>
+                              </div>
+                              <div className="item">
+                                  <img src={meter3} alt="Image" />
+                                  <h5>Postgres</h5>
                               </div>
                           </Carousel>
                       </div>
